@@ -1,0 +1,36 @@
+/* styles.css */
+.detail-film {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .detail-film h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-film img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .detail-film p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .detail-film a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .detail-film a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,14 @@
+/* index.css */
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #181818;
+    color: #ffffff;
+    }
+    header .h3 {
+    font-size: 32px;
+    font-weight: bold;
+    }

@@ -1,0 +1,33 @@
+.cardDetail {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px auto; /* Auto untuk membuat cardDetail berada di tengah */
+    width: 50%; /* Menyesuaikan lebar maksimal cardDetail */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Untuk membuat kontennya berada di tengah */
+  }
+  
+  .cardDetail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .cardDetail h3 {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .cardDetail p {
+    margin-bottom: 4px;
+    color: #666;
+  }
+  
+  /* Media query untuk perangkat mobile */
+  @media only screen and (max-width: 600px) {
+    .cardDetail {
+      width: 100%; /* Membuat cardDetail full-width pada perangkat mobile */
+    }
+  }
+  

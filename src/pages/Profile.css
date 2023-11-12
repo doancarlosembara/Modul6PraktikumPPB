@@ -1,0 +1,51 @@
+/* ProfileAdmin.css */
+.profile-admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    margin-top: 5%;
+    overflow: auto; /* Tambahkan overflow scroll jika konten melebihi area layar */
+  }
+  
+  .profile-admin {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px; /* Batasi lebar maksimum agar tidak terlalu lebar */
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 75%; /* Ubah lebar sesuai kebutuhan */
+    height: auto; /* Gunakan auto untuk menjaga proporsi gambar */
+    max-height: 400px; /* Batasi tinggi maksimum agar tidak terlalu tinggi */
+    border-radius: 20px; /* Tambahkan radius sesuai keinginan */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  /* Tambahkan variasi responsif lebih banyak untuk perangkat mobile */
+  @media (max-width: 768px) {
+    .profile-admin {
+      width: 80%; /* Atur lebar menjadi 80% pada perangkat dengan lebar layar hingga 768px */
+    }
+  
+    .profile-image img {
+      width: 100%; /* Atur lebar gambar menjadi 100% untuk perangkat mobile */
+      border-radius: 10px; /* Kurangi radius untuk tampilan yang lebih baik pada perangkat mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-admin {
+      width: 90%; /* Atur lebar menjadi 90% pada perangkat dengan lebar layar hingga 480px */
+    }
+  }
+  
